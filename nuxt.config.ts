@@ -10,7 +10,7 @@ export default defineNuxtConfig ({
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     postcss: {
-      postcssOptions: require('./postcss.config.js'),
+      postcssOptions: require('./options.postcss'),
     },
     configPath: 'tailwind.config.js',
     // content: ['tailwind.config.js'],
